@@ -1,0 +1,596 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+.bi-chevron-double-left
+{
+    position: fixed;
+    left: 20px;
+    top: 25px;
+    color: #000;
+    cursor: pointer;
+}
+
+.bi-box-arrow-left
+{
+    position: fixed;
+    left: 255px;
+    top: 25px;
+    color: #000;
+    cursor: pointer;
+}
+
+.fa-biking
+{
+    color: #FFFFFF;
+}
+
+.bi-chat-square-text-fill
+{
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.notavailable {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul input{
+    width: 210px;
+    margin-bottom: 10px;
+    border: solid 0px 0px 1px 0px grey;
+}
+
+.web
+{
+    background-color: #FFFFFF;
+}
+
+.detail
+{
+	/* Background image source: https://pixabay.com/vectors/mobile-smartphone-frame-apple-5469232/ */
+    /* Logo source: https://winnipeg.ca/designsystem/foundations/colour */
+	background:  url('images/background.png');
+	background-repeat:  no-repeat;
+	
+	font-family: "Sofia", sans-serif;
+}
+
+
+body:not(.web, .detail)
+{
+	/* Background image source: https://pixabay.com/vectors/mobile-smartphone-frame-apple-5469232/ */
+    /* Logo source: https://winnipeg.ca/designsystem/foundations/colour */
+	background:  url('images/background_index.png');
+	background-repeat:  no-repeat;
+	
+	font-family: "Sofia", sans-serif;
+}
+
+.loginform
+{
+    position: fixed;
+    left: 40px;
+    top: 200px;
+}
+
+.homepage
+{
+    position: fixed;
+    left: 25px;
+    top: 200px;
+}
+
+.surveyform
+{
+    position: fixed;
+    left: 25px;
+    top: 200px;
+}
+
+.programpage
+{
+    position: fixed;
+    left: 25px;
+    top: 240px;
+}
+
+.recordpage
+{
+    position: fixed;
+    left: 25px;
+    top: 220px;
+}
+
+.reportpage
+{
+    position: fixed;
+    left: 25px;
+    top: 220px;
+}
+
+.detailpage
+{
+    position: fixed;
+    top: 100px;
+    left : 18px;
+    cursor: pointer;
+}
+
+.instructorpage
+{
+    position: fixed;
+    left: 25px;
+    top: 220px;
+}
+
+.programEnrollment
+{
+    position: fixed;
+    left: 25px;
+    top: 220px;
+
+}
+
+.barcodepage
+{
+    position: fixed;
+    left: 60px;
+    top: 220px;
+}
+
+ul p
+{
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 40px 5px grey;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 20px 30px 25px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+ul h1
+{
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 40px 5px grey;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 15px 55px 15px;
+    font-weight: bolder;
+    background-color: #00AB4E;
+    color:#FFFFFF;
+    width:200px;
+    height: 20px;
+    font-size: 15px;
+}
+
+ul h2
+{
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 40px 5px grey;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px 45px 30px;
+    font-weight: bolder;
+    background-color: #00AB4E;
+    color:#FFFFFF;
+    width:230px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.login
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 20px 2px 20px;
+    margin: 5px;
+    width: 200px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: #00669B;
+    cursor:pointer;
+}
+
+.activity1, .activity2, .activity3, .activity4, .programselect
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 110px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.activity1
+{
+    background: #123985
+}
+
+.activity2
+{
+    background: #6460AA;
+}
+
+.activity3
+{
+    background: #2ED9C3
+}
+
+.activity4
+{
+    background: #00BFDF
+}
+
+.programselect
+{
+    background: #123985
+}
+
+.record1, .record2, .record3, .record4
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #00BFDF;
+    font-size: 15px;
+}
+.next, .nextsurvey, .nextsurvey2, .submit, .submit2, .nextSurveyGeneral, .home
+{
+    position: fixed;
+    top: 500px;
+    left : 200px;
+    cursor: pointer;
+}
+
+.confirmPay{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #FFB71B;
+    font-size: 13px;
+}
+.instructordetail
+{
+    position: fixed;
+    top: 500px;
+    left : 80px;
+    cursor: pointer;
+}
+
+.programdetail
+{
+    position: fixed;
+    top: 500px;
+    left : 80px;
+    cursor: pointer;
+}
+.report1, .report2
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #00BFDF;
+    font-size: 15px;
+}
+.report1
+{
+    background: #FFB71B
+}
+
+.report2
+{
+    background: #00AB4E
+}
+
+
+.instructor
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #2ED9C3;
+    font-size: 15px;
+}
+
+.program
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #2ED9C3;
+    font-size: 15px;
+}
+
+.programToSubmit
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #6460AA;
+    font-size: 12px;
+}
+
+.confirmenroll
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #6460AA;
+    font-size: 13px;
+}
+
+.findfriend
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #2ED9C3;
+    font-size: 13px;
+}
+
+.invitefriend
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    background: #123985;
+    font-size: 13px;
+}
+/**
+Rating
+**/
+
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+  }
+  
+  .rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .rating label:last-child {
+    position: static;
+  }
+  
+  .rating label:nth-child(1) {
+    z-index: 5;
+  }
+  
+  .rating label:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .rating label:nth-child(3) {
+    z-index: 3;
+  }
+  
+  .rating label:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .rating label:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .rating label .icon {
+    float: left;
+    color: transparent;
+  }
+  
+  .rating label:last-child .icon {
+    color: #000;
+  }
+  
+  .rating:not(:hover) label input:checked ~ .icon,
+  .rating:hover label:hover input ~ .icon {
+    color:#FFB71B;
+  }
+  
+  .rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #FFB71B;
+  }
+
+.checked {
+    color: orange;
+}
+
+.nologin
+{
+      position: fixed;
+      top: 460px;
+      left: 35px;
+      cursor: pointer;
+      color: #00669B;
+      font-size: 15px;
+}
+
+.websurvey
+{
+    position: fixed;
+    top: 490px;
+    left: 40px;
+    cursor: pointer;
+    color: #00669B;
+    font-size: 15px;
+}
+
+.nologin:hover
+{
+    text-decoration: underline;
+}
+
+.websurvey:hover
+{
+    text-decoration: underline;
+}
+  
+.bi-check-circle-fill
+{
+      color: #2ED9C3;
+}
+
+.barcodepage
+{
+      cursor: pointer;
+}
+
+.bi-pc-display-horizontal
+{
+    position: fixed;
+    left: 250px;
+    top: 25px;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.notification
+{
+    position: fixed;
+    left: 225px;
+    top: 220px;
+}
